@@ -1,0 +1,14 @@
+{
+  "slug": "jiaoda-hub",
+  "repo": "https://github.com/shisisishi/jiaoda-hub",
+  "demo": "https://shisisishi.github.io/jiaoda-hub/",
+  "safeToPublish": true,
+  "build": {
+    "success": true,
+    "notes": "GitHub Pages 已开启（legacy，根目录 index.html）。github.io 上固定加载 data/sites.demo.json，不请求 /api/status。已发布 commit 21eb4b73dfcc39659f4359f86e8b2e3a1e3cc040。"
+  },
+  "securityReview": {
+    "safeToPublish": true,
+    "notes": "未纳入 make-shortcut.ps1、make-dsh-shortcut.ps1、start-dsh.ps1（含 C:\\Users\\33873 与 C:\\Work\\Node\\dsh.cmd）。公开页入口为 # 锚点示例；app.js 在 github.io 或 API 失败时使用演示 JSON。server.mjs 仅绑定 127.0.0.1，不在公网暴露控制面。"
+  }
+}
