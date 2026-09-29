@@ -1,0 +1,63 @@
+{
+  "sites": [
+    {
+      "name": "交大总控",
+      "url": "#hub",
+      "note": "本页 · 公开静态说明版",
+      "up": false
+    },
+    {
+      "name": "DeepSeek Harness",
+      "url": "#dsh",
+      "note": "示例：本地 AI 工作台（需自行安装 DSH）",
+      "up": false
+    },
+    {
+      "name": "交大一日",
+      "url": "#day",
+      "note": "示例：每日作战台模块",
+      "up": false
+    },
+    {
+      "name": "AI 前沿",
+      "url": "#news",
+      "note": "示例：资讯聚合模块",
+      "up": false
+    },
+    {
+      "name": "知识站",
+      "url": "#zhishi",
+      "note": "示例：学习指导与待办",
+      "up": false
+    },
+    {
+      "name": "Obsidian 可视化",
+      "url": "#obid",
+      "note": "示例：笔记库图谱",
+      "up": false
+    },
+    {
+      "name": "四年指南",
+      "url": "#idea",
+      "note": "示例：自动化路线规划",
+      "up": false
+    }
+  ],
+  "news": {
+    "ok": true,
+    "items": [
+      {
+        "level": "high",
+        "source": "说明",
+        "title": "GitHub 公开页不连接作者电脑上的服务，也不拉取真实资讯。",
+        "url": "#"
+      },
+      {
+        "level": "critical",
+        "source": "说明",
+        "title": "在本机运行 node server.mjs 并启动各子服务后，总控页才会显示绿点与真实链接。",
+        "url": "#"
+      }
+    ]
+  }
+}
